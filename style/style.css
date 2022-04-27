@@ -101,6 +101,11 @@ nav a:hover {
   color: brown;
 }
 
+section{
+background-image:url(../images/separateur.png);
+background-position:bottom;
+background-repeat: repeat-x;
+}
 .second_section{
   width: 85%;
   height: auto;
@@ -167,18 +172,19 @@ margin: auto;
 .footer{
   display: flex;
   margin:center;
-  justify-content: space-around;
+  justify-content:space-evenly;
+  padding: 20px;
+  margin-left: 55px;
+}
+
+.photo_list{
+  display: flex;
+  margin: auto;
   
 }
 
-footer{
-  background-image: url(../images/separateur.png);
-  background-repeat: repeat-x;
 
-  
-}
-
-.div1 horaire h1{
+.horaire h1{
   font-size: normal;
 }
 
@@ -188,15 +194,29 @@ footer{
   
 }
 
+.liste2{
+
+}
+
+.horaire{
+  margin-left: 70px;
+}
+
 .list li{
 list-style: none;
 }
 
 .ico_top{
   position: absolute;
-    top: 88%;
+    bottom: 11.8%;
     left: 53%;
 }
+
+.div3{
+  margin-left: 15px;
+}
+
+
 
 
 
